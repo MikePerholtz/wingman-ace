@@ -3,15 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppConfigModule } from './app-configuration.module';
+import { AppRoutingModule } from "./app-routing.module";
+
+import { AppHeader } from './common/app-header';
 //import { LoginComponent } from "./components/account";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppHeader
   ],
   imports: [
     BrowserModule,
-    AppConfigModule
+    AppConfigModule,
+    AppRoutingModule
   ],
   providers: [
     

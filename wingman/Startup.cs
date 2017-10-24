@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.IO;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace wingman
 {
@@ -24,7 +25,19 @@ namespace wingman
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc(options =>
+            {
+                // options.Filters.Add(new ApiExceptionFilter()); //mperholtz - manually added this line of code to demonstrate usage.
+            });
+
+            // set up and configure Authentication - make sure to call .UseAuthentication()
+            services
+                .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+				.AddCookie(o =>
+				{
+					o.LoginPath = "/api/login";
+					o.LogoutPath = "/api/logout";
+				});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,11 +65,15 @@ namespace wingman
                 }
             });
 
+            app.UseAuthentication();
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();  
+           
+          
         }
     }
 }

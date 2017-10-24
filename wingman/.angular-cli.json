@@ -19,11 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        //"../node_modules/bootstrap/dist/css/bootstrap.css",
-        //"../node_modules/bootstrap/dist/css/bootstrap-theme.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/bootstrap/dist/css/bootstrap-theme.css",
         "../node_modules/font-awesome/css/font-awesome.css",
-       // "../node_modules/toastr/build/toastr.css",
-        //"./css/wingman.css"
+        "../node_modules/toastr/build/toastr.css",
+        "./css/wingman.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
