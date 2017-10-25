@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.IO;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using WingmanBusiness.Lockdown;
+//using WingmanBusiness.Lockdown;
 
 namespace wingman
 {
@@ -35,7 +35,7 @@ namespace wingman
 					o.LogoutPath = "/api/logout";
 				});
                 
-            services.AddTransient<AccountRepository>();
+            //services.AddTransient<AccountRepository>();
 
             services.AddMvc(options =>
             {

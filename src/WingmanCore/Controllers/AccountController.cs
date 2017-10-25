@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Cors;
 using Wingman.Models;
-using WingmanBusiness.Lockdown;
+//using WingmanBusiness.Lockdown;
 
 namespace AlbumViewerAspNetCore
 {    
@@ -16,12 +16,12 @@ namespace AlbumViewerAspNetCore
     [EnableCors("CorsPolicy")]
     public class AccountController : Controller
     {
-        private AccountRepository accountRepo;
+        //private AccountRepository accountRepo;
 
-        public AccountController(AccountRepository actRepo)            
-        {
-            accountRepo = actRepo;
-        }
+        // public AccountController(AccountRepository actRepo)            
+        // {
+        //     accountRepo = actRepo;
+        // }
 
            
 		// [AllowAnonymous]                    

@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "client-src",
-      "outDir": "wwwroot",
+      "outDir": "../WingmanCore/wwwroot",
       "assets": [
         "assets", 
         "favicon.ico"
@@ -25,7 +25,9 @@
         "../node_modules/toastr/build/toastr.css",
         "./css/wingman.css"
       ],
-      "scripts": [],
+      "scripts": [
+        
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
