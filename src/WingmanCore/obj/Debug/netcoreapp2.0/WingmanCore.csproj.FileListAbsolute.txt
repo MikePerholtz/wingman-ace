@@ -1,0 +1,10 @@
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/bin/Debug/netcoreapp2.0/WingmanCore.deps.json
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/bin/Debug/netcoreapp2.0/WingmanCore.runtimeconfig.json
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/bin/Debug/netcoreapp2.0/WingmanCore.runtimeconfig.dev.json
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/bin/Debug/netcoreapp2.0/WingmanCore.dll
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/bin/Debug/netcoreapp2.0/WingmanCore.pdb
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.csproj.CoreCompileInputs.cache
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.AssemblyInfoInputs.cache
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.AssemblyInfo.cs
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.dll
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.pdb
