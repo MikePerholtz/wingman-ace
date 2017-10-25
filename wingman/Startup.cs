@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.IO;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using WingmanBusiness.Lockdown;
 
 namespace wingman
 {
@@ -25,11 +26,6 @@ namespace wingman
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(options =>
-            {
-                // options.Filters.Add(new ApiExceptionFilter()); //mperholtz - manually added this line of code to demonstrate usage.
-            });
-
             // set up and configure Authentication - make sure to call .UseAuthentication()
             services
                 .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -38,6 +34,15 @@ namespace wingman
 					o.LoginPath = "/api/login";
 					o.LogoutPath = "/api/logout";
 				});
+                
+            services.AddTransient<AccountRepository>();
+
+            services.AddMvc(options =>
+            {
+                // options.Filters.Add(new ApiExceptionFilter()); //mperholtz - manually added this line of code to demonstrate usage.
+            });
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

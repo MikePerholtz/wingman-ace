@@ -4,17 +4,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Wingman.DataAccess;
+using WingmanBusiness.Models;
+using Wingman.Models;
 //using Westwind.BusinessObjects;
 
-namespace AlbumViewerBusiness
+namespace WingmanBusiness.Lockdown
 {
     /// <summary>
     /// Account repository used to validate and manage user accounts
     /// </summary>
 
-    public class AccountRepository : EntityFrameworkRepository<AlbumViewerContext,User>
+    public class AccountRepository : EntityFrameworkRepository<WingmanContext, ApplicationUser>
     {
-        public AccountRepository(AlbumViewerContext context)
+        
+        public AccountRepository(WingmanContext context)
             : base(context)
         { }
         
@@ -25,7 +29,7 @@ namespace AlbumViewerBusiness
             var hashedPassword = password;
 
             var user = await Context.Users.FirstOrDefaultAsync(usr => 
-                            usr.Username == username && 
+                            usr.UserName == username && 
                             usr.Password == hashedPassword);
             if (user == null)
                 return false;
@@ -33,14 +37,14 @@ namespace AlbumViewerBusiness
             return true;
         }
 
-        public async Task<User> AuthenticateAndLoadUser(string username, string password)
+        public async Task<ApplicationUser> AuthenticateAndLoadUser(string username, string password)
         {
             // TODO: Do proper password hashing - for now DEMO CODE 
             // var hashedPassword = AppUtils.HashPassword(password);
             var hashedPassword = password;
 
             var user = await Context.Users
-                          .FirstOrDefaultAsync(usr => usr.Username == username &&
+                          .FirstOrDefaultAsync(usr => usr.UserName == username &&
                                                  usr.Password == hashedPassword);
             return user;
         }        
