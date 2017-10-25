@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Wingman.Models;
 using System;
 
 
