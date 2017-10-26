@@ -27,7 +27,7 @@ namespace WingmanFleet.Lockdown
             // var hashedPassword = AppUtils.HashPassword(password);
             var hashedPassword = password;
 
-            var user = await Context.Users.FirstOrDefaultAsync(usr => 
+            var user = await Context.ApplicationUsers.FirstOrDefaultAsync(usr => 
                             usr.UserName == username && 
                             usr.Password == hashedPassword);
             if (user == null)
@@ -42,7 +42,7 @@ namespace WingmanFleet.Lockdown
             // var hashedPassword = AppUtils.HashPassword(password);
             var hashedPassword = password;
 
-            var user = await Context.Users
+            var user = await Context.ApplicationUsers
                           .FirstOrDefaultAsync(usr => usr.UserName == username &&
                                                  usr.Password == hashedPassword);
             return user;

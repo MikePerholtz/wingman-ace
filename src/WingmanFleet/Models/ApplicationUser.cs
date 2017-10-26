@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace Wingman.Models
+namespace WingmanFleet.Models
 {
     public class ApplicationUser {
         public string UserName { get; set; }

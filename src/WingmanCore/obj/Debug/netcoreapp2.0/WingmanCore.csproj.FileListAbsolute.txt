@@ -8,3 +8,16 @@
 /Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.AssemblyInfo.cs
 /Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.dll
 /Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/Debug/netcoreapp2.0/WingmanCore.pdb
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\obj\Debug\netcoreapp2.0\wingmancore.csprojResolveAssemblyReference.cache
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\obj\Debug\netcoreapp2.0\wingmancore.csproj.CoreCompileInputs.cache
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\obj\Debug\netcoreapp2.0\wingmancore.AssemblyInfoInputs.cache
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\obj\Debug\netcoreapp2.0\wingmancore.AssemblyInfo.cs
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\obj\Debug\netcoreapp2.0\wingmancore.dll
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\obj\Debug\netcoreapp2.0\wingmancore.pdb
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmancore.deps.json
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmancore.runtimeconfig.json
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmancore.runtimeconfig.dev.json
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmancore.dll
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmancore.pdb
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmanfleet.dll
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmancore\bin\Debug\netcoreapp2.0\wingmanfleet.pdb

@@ -1,3 +1,12 @@
 /Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.csproj.CoreCompileInputs.cache
 /Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.AssemblyInfoInputs.cache
 /Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.AssemblyInfo.cs
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\obj\Debug\netstandard2.0\wingmanfleet.csprojResolveAssemblyReference.cache
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\obj\Debug\netstandard2.0\wingmanfleet.csproj.CoreCompileInputs.cache
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\obj\Debug\netstandard2.0\wingmanfleet.AssemblyInfoInputs.cache
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\obj\Debug\netstandard2.0\wingmanfleet.AssemblyInfo.cs
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\bin\Debug\netstandard2.0\wingmanfleet.deps.json
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\bin\Debug\netstandard2.0\wingmanfleet.dll
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\bin\Debug\netstandard2.0\wingmanfleet.pdb
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\obj\Debug\netstandard2.0\wingmanfleet.dll
+C:\Users\MikeP\Documents\AppDev\wingman-ace\src\wingmanfleet\obj\Debug\netstandard2.0\wingmanfleet.pdb

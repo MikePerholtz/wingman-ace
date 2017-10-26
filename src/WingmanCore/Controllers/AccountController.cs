@@ -1,17 +1,14 @@
-using System.IO;
 //using AlbumViewerBusiness;
-using System.Threading.Tasks;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Cors;
-using Wingman.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 //using WingmanFleet.Lockdown;
 
 namespace AlbumViewerAspNetCore
-{    
+{
     //[ServiceFilter(typeof(ApiExceptionFilter))]    
     [EnableCors("CorsPolicy")]
     public class AccountController : Controller
