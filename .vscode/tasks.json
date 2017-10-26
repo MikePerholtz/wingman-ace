@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/wingman/wingman.csproj"
+                "${workspaceRoot}/wingmancore/wingmancore.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"

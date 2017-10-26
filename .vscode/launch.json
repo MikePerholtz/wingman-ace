@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceRoot}/wingman/bin/Debug/netcoreapp2.0/wingman.dll",
+            "program": "${workspaceRoot}/src/wingmancore/bin/Debug/netcoreapp2.0/wingmancore.dll",
             "args": [],
-            "cwd": "${workspaceRoot}/wingman",
+            "cwd": "${workspaceRoot}/src/wingmancore",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {

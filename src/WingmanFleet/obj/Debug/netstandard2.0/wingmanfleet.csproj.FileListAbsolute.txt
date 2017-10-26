@@ -1,0 +1,3 @@
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.csproj.CoreCompileInputs.cache
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.AssemblyInfoInputs.cache
+/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.AssemblyInfo.cs
