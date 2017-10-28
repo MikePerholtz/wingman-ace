@@ -35,8 +35,8 @@ testem.log
 /typings
 
 # dotnet
-#/bin
-#/obj
+/bin
+/obj
 
 # e2e
 /e2e/*.js
