@@ -12543,11 +12543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/WingmanCore.csproj",
-      "projectName": "WingmanCore",
-      "projectPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/WingmanCore.csproj",
+      "projectUniqueName": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/wingmancore/wingmancore.csproj",
+      "projectName": "wingmancore",
+      "projectPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/wingmancore/wingmancore.csproj",
       "packagesPath": "/Users/mperholtz/.nuget/packages/",
-      "outputPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/",
+      "outputPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/wingmancore/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
