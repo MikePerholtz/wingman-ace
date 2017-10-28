@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -56,19 +57,6 @@ namespace wingman
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.Use(async (context, next) =>
-            {
-                await next();
-
-                // If there's no available file and the request doesn't contain an extension, we're probably trying to access a page.
-                // Rewrite request to use app root
-                if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value) && !context.Request.Path.Value.StartsWith("/api"))
-                {
-                    context.Request.Path = "/index.html";
-                    context.Response.StatusCode = 200; // Make sure we update the status code, otherwise it returns 404
-                    await next();
-                }
-            });
 
             app.UseAuthentication();
 
@@ -77,6 +65,34 @@ namespace wingman
 
 
             app.UseMvcWithDefaultRoute();  
+
+            // catch-all handler for HTML5 client routes - serve index.html
+            // mPerholtz: running ng build or npm run build will trigger webpack or angular-cli
+            // to dump some neccessary files (like index.html) into the wwwroot directory where
+            // they can be served to the client
+            app.Run(async context =>
+	        {
+		        context.Response.ContentType = "text/html";
+				await context.Response.SendFileAsync(Path.Combine(env.WebRootPath, "index.html"));
+	        });
+
+            #region "mPerholtz this was the original code for serving up index.html."
+                    
+            // app.Use(async (context, next) =>
+            // {
+            //     await next();
+
+            //     // If there's no available file and the request doesn't contain an extension, we're probably trying to access a page.
+            //     // Rewrite request to use app root
+            //     if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value) && !context.Request.Path.Value.StartsWith("/api"))
+            //     {
+            //         context.Request.Path = "../wingmanangular/index.html";
+            //         context.Response.StatusCode = 200; // Make sure we update the status code, otherwise it returns 404
+            //         await next();
+            //     }
+            // });
+
+            #endregion
            
           
         }

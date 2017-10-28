@@ -21,7 +21,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "wingmancore/1.0.0": {
+      "WingmanCore/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.AspNetCore.StaticFiles": "2.0.0",
@@ -29,10 +29,10 @@
           "wingmanfleet": "1.0.0"
         },
         "runtime": {
-          "wingmancore.dll": {}
+          "WingmanCore.dll": {}
         },
         "compile": {
-          "wingmancore.dll": {}
+          "WingmanCore.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3967,7 +3967,7 @@
     }
   },
   "libraries": {
-    "wingmancore/1.0.0": {
+    "WingmanCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5109,7 +5109,7 @@
     "Newtonsoft.Json/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+      "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
     },
@@ -5179,7 +5179,7 @@
     "runtime.native.System.Net.Security/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+EOXonmp5Lu+0HnQ5xSoFvhCmjFZtoK9IZVVaRGl4HXpWZVoRtM4LCy2iU+wVvMb7ZiGPmLy4pP7/go/rXXdEA==",
+      "sha512": "sha512-M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
       "path": "runtime.native.system.net.security/4.3.0",
       "hashPath": "runtime.native.system.net.security.4.3.0.nupkg.sha512"
     },
@@ -5564,7 +5564,7 @@
     "System.Net.NameResolution/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E/evyXhH3IaT1LPNQaJL8KpoiupB+nQJux8gHrTIVgtXl7N9TtlMZqx+gRS8piDQlF5cCaFBvLCVDy+nMBsXJw==",
+      "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "path": "system.net.nameresolution/4.3.0",
       "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
     },
@@ -5606,7 +5606,7 @@
     "System.Private.DataContractSerialization/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HPCqYbBvA+iYS2wjoyH2qGJ+5mZC7G7zT93A7ZhgW8tKmvnLXYDeIUYU+WHnpXe0lfiIjrEk8E3E1u1vrnUqKQ==",
+      "sha512": "sha512-lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
       "path": "system.private.datacontractserialization/4.1.1",
       "hashPath": "system.private.datacontractserialization.4.1.1.nupkg.sha512"
     },
@@ -5893,7 +5893,7 @@
     "System.Threading.Tasks.Parallel/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-weSU5902/EqV3+SYPogmDAtwj1B0BgxzNeJHWBvAXwpFjsysFiMDgFUMXBkCer7+pMHzL+mS51AEAqY19AFvXA==",
+      "sha512": "sha512-cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
       "path": "system.threading.tasks.parallel/4.3.0",
       "hashPath": "system.threading.tasks.parallel.4.3.0.nupkg.sha512"
     },
@@ -5949,7 +5949,7 @@
     "System.Xml.XmlSerializer/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yO09FZen9phwNCD1cQr3jvx7jQoxTkttL0r1bO2ett1efO+rhkFJv19pDy8CbJ1/kLStcRVw7d3cd0HDnxy84g==",
+      "sha512": "sha512-FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
       "path": "system.xml.xmlserializer/4.0.11",
       "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
     },

@@ -7515,7 +7515,7 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "files": [
@@ -7659,7 +7659,7 @@
       ]
     },
     "runtime.native.System.Net.Security/4.3.0": {
-      "sha512": "+EOXonmp5Lu+0HnQ5xSoFvhCmjFZtoK9IZVVaRGl4HXpWZVoRtM4LCy2iU+wVvMb7ZiGPmLy4pP7/go/rXXdEA==",
+      "sha512": "M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
@@ -9728,7 +9728,7 @@
       ]
     },
     "System.Net.NameResolution/4.3.0": {
-      "sha512": "E/evyXhH3IaT1LPNQaJL8KpoiupB+nQJux8gHrTIVgtXl7N9TtlMZqx+gRS8piDQlF5cCaFBvLCVDy+nMBsXJw==",
+      "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
       "files": [
@@ -10030,7 +10030,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "HPCqYbBvA+iYS2wjoyH2qGJ+5mZC7G7zT93A7ZhgW8tKmvnLXYDeIUYU+WHnpXe0lfiIjrEk8E3E1u1vrnUqKQ==",
+      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -11956,7 +11956,7 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "weSU5902/EqV3+SYPogmDAtwj1B0BgxzNeJHWBvAXwpFjsysFiMDgFUMXBkCer7+pMHzL+mS51AEAqY19AFvXA==",
+      "sha512": "cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
@@ -12358,7 +12358,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.0.11": {
-      "sha512": "yO09FZen9phwNCD1cQr3jvx7jQoxTkttL0r1bO2ett1efO+rhkFJv19pDy8CbJ1/kLStcRVw7d3cd0HDnxy84g==",
+      "sha512": "FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.11",
       "files": [
@@ -12537,41 +12537,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MikeP\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/mperholtz/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\MikeP\\Documents\\AppDev\\wingman-ace\\src\\wingmancore\\wingmancore.csproj",
-      "projectName": "wingmancore",
-      "projectPath": "C:\\Users\\MikeP\\Documents\\AppDev\\wingman-ace\\src\\wingmancore\\wingmancore.csproj",
-      "packagesPath": "C:\\Users\\MikeP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MikeP\\Documents\\AppDev\\wingman-ace\\src\\wingmancore\\obj\\",
+      "projectUniqueName": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/WingmanCore.csproj",
+      "projectName": "WingmanCore",
+      "projectPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/WingmanCore.csproj",
+      "packagesPath": "/Users/mperholtz/.nuget/packages/",
+      "outputPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanCore/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MikeP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/mperholtz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\MikeP\\.dotnet\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\MikeP\\Documents\\AppDev\\wingman-ace\\src\\wingmanfleet\\wingmanfleet.csproj": {
-              "projectPath": "C:\\Users\\MikeP\\Documents\\AppDev\\wingman-ace\\src\\wingmanfleet\\wingmanfleet.csproj"
+            "/Users/mperholtz/Documents/AppDev/wingman-ace/src/wingmanfleet/wingmanfleet.csproj": {
+              "projectPath": "/Users/mperholtz/Documents/AppDev/wingman-ace/src/wingmanfleet/wingmanfleet.csproj"
             }
           }
         }
