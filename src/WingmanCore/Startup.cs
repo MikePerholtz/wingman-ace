@@ -76,7 +76,7 @@ namespace wingman
 				await context.Response.SendFileAsync(Path.Combine(env.WebRootPath, "index.html"));
 	        });
 
-            #region "mPerholtz this was the original code for serving up index.html."
+            #region "mPerholtz EXPAND to see was the original code for serving up index.html."
                     
             // app.Use(async (context, next) =>
             // {
@@ -93,7 +93,7 @@ namespace wingman
             // });
 
             #endregion
-           
+            
           
         }
     }
