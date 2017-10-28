@@ -6,8 +6,9 @@ namespace WingmanFleet
 {
     public class SeedData 
     {
-        public void GetAllUsers {
-            public List<ApplicationUser>
+        public void GetAllUsers()
+        {
+           
 
             
 
