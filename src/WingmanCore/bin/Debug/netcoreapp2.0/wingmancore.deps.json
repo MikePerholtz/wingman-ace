@@ -21,7 +21,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "wingmancore/1.0.0": {
+      "WingmanCore/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.AspNetCore.StaticFiles": "2.0.0",
@@ -29,10 +29,10 @@
           "wingmanfleet": "1.0.0"
         },
         "runtime": {
-          "wingmancore.dll": {}
+          "WingmanCore.dll": {}
         },
         "compile": {
-          "wingmancore.dll": {}
+          "WingmanCore.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3967,7 +3967,7 @@
     }
   },
   "libraries": {
-    "wingmancore/1.0.0": {
+    "WingmanCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
