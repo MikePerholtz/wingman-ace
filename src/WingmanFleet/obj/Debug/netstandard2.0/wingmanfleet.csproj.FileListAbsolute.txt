@@ -1,8 +1,0 @@
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/wingmanfleet/bin/Debug/netstandard2.0/wingmanfleet.deps.json
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/bin/Debug/netstandard2.0/wingmanfleet.dll
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/bin/Debug/netstandard2.0/wingmanfleet.pdb
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.csproj.CoreCompileInputs.cache
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.AssemblyInfoInputs.cache
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.AssemblyInfo.cs
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.dll
-/Users/mperholtz/Documents/AppDev/wingman-ace/src/WingmanFleet/obj/Debug/netstandard2.0/wingmanfleet.pdb
