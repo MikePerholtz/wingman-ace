@@ -6,6 +6,9 @@ namespace VSCodeErrorHints
     {
         public void boolshowmeanerror () { return somethingwrong;}
         
+        
+
+        
 
         
     }

@@ -20,7 +20,7 @@ namespace wingman
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 //.ConfigureAppConfiguration(SetupConfiguration)
-                .UseStartup<Startup>()
+                //.UseStartup<Startup>()
                 .Build();
 
         //mPerholtz Following was from Wildermuth pluralsight course on 
